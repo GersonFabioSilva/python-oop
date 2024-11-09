@@ -17,6 +17,27 @@ An object is a unit of data (having one or more attributes), of a particular cla
 
 ![alt text](image-7.png)
 
+![alt text](image-8.png)
+
+## Self
+
+quando um método de uma instanica é chamado, a própria instancia é passada como primeiro argumento do método.
+
+Por isso que quando um método de uma classe é definido, usa-se a palavra 'self' como argumento obrigatório desse método.
+
+É uma característica do python e está implícito na chamada do método.
+
+
+![alt text](image-9.png)
+
+Caso o método da classe seja definido sem o argumento 'self', ao chamar esse método o seguinte erro é retornado:
+
+'o método chamado não exige argumentos mas 1 (argumento) foi passado'
+
+![alt text](image-10.png)
+
+Ou seja, em python, quando um método de uma instanica é chamado, a própria instância será passada como argumento para esse método e caso em sua definiçaõ não tiver sido indicado que a própria instancia é um argumento (omitindo o 'self') o erro da figura acima é gerado. 
+
 
 
 
